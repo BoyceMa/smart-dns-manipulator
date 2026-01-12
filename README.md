@@ -27,4 +27,6 @@ java -cp "target/classes;" -javaagent:target/smart-dns-manipulator-1.0-SNAPSHOT.
 dns.Single
 ```
 日志打印，已正常解析
-<img width="967" height="86" alt="image" src="https://github.com/user-attachments/assets/da5241f8-8b67-49cd-bfbc-a0e6fd02aa7a" />
+
+<img width="830" height="76" alt="image" src="https://github.com/user-attachments/assets/30983d4f-2930-4564-aa06-45f134abcc2f" />
+
