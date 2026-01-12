@@ -9,14 +9,11 @@ public class Single {
     public static void main(String[] args) throws UnknownHostException, InterruptedException {
         String host = "smart.example.com";
         String host1 = "smart1.example.com";
-        String host2 = "baidu.com";
         Thread.sleep(10_000);
         InetAddress[] addrs = InetAddress.getAllByName(host);
         System.out.println(host + ":" + addrs.length);
         InetAddress[] addrs1 = InetAddress.getAllByName(host1);
         System.out.println(host1 + ":" + addrs1.length);
-        InetAddress[] addrs2 = InetAddress.getAllByName(host2);
-        System.out.println(host2 + ":" + addrs2.length);
     }
 }
 
